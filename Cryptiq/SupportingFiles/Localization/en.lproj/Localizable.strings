@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Cryptiq
+
+  Created by Elias puolitaival on 2025-05-06.
+  
+*/
+"ContentView.WelcomeMessage" = "Hello, World!"; 
+"ContentView.WelcomeMessage" = "Good morning, %@!";

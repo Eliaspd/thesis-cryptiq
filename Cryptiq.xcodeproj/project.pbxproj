@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0B5406D9C2CDC60DE6CB1361 /* Pods_CryptiqTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1640D879F0E47266AD18435 /* Pods_CryptiqTests.framework */; };
+		38F97D8375B1E8B565B0389A /* Pods_Cryptiq_CryptiqUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4102313E720F9B86B2B15B1 /* Pods_Cryptiq_CryptiqUITests.framework */; };
+		7B5D9E764D99BAE6314F868B /* Pods_Cryptiq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6426D298AD563A1C2B46EFF5 /* Pods_Cryptiq.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BBDA9CBF2DCA8C32001685DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B1017EA0123690FA4A7484F /* Pods-Cryptiq-CryptiqUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cryptiq-CryptiqUITests.release.xcconfig"; path = "Target Support Files/Pods-Cryptiq-CryptiqUITests/Pods-Cryptiq-CryptiqUITests.release.xcconfig"; sourceTree = "<group>"; };
+		452BF0DEC842D7DA4C11C5C7 /* Pods-CryptiqTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptiqTests.debug.xcconfig"; path = "Target Support Files/Pods-CryptiqTests/Pods-CryptiqTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6426D298AD563A1C2B46EFF5 /* Pods_Cryptiq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cryptiq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BEC48D7DD20CFFF226C939 /* Pods-Cryptiq-CryptiqUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cryptiq-CryptiqUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cryptiq-CryptiqUITests/Pods-Cryptiq-CryptiqUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A61605CED1DAD7E602AEAD6D /* Pods-CryptiqTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptiqTests.release.xcconfig"; path = "Target Support Files/Pods-CryptiqTests/Pods-CryptiqTests.release.xcconfig"; sourceTree = "<group>"; };
+		AADFA8BB21EDEB96C450F3F1 /* Pods-Cryptiq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cryptiq.release.xcconfig"; path = "Target Support Files/Pods-Cryptiq/Pods-Cryptiq.release.xcconfig"; sourceTree = "<group>"; };
 		BBDA9CB12DCA8C30001685DA /* Cryptiq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cryptiq.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDA9CBE2DCA8C32001685DA /* CryptiqTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptiqTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDA9CC82DCA8C32001685DA /* CryptiqUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptiqUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1640D879F0E47266AD18435 /* Pods_CryptiqTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptiqTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47D14C15CE0E3767C03E7DD /* Pods-Cryptiq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cryptiq.debug.xcconfig"; path = "Target Support Files/Pods-Cryptiq/Pods-Cryptiq.debug.xcconfig"; sourceTree = "<group>"; };
+		F4102313E720F9B86B2B15B1 /* Pods_Cryptiq_CryptiqUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cryptiq_CryptiqUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B5D9E764D99BAE6314F868B /* Pods_Cryptiq.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B5406D9C2CDC60DE6CB1361 /* Pods_CryptiqTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +83,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F97D8375B1E8B565B0389A /* Pods_Cryptiq_CryptiqUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69A95BE6A90AA968A5D07507 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E47D14C15CE0E3767C03E7DD /* Pods-Cryptiq.debug.xcconfig */,
+				AADFA8BB21EDEB96C450F3F1 /* Pods-Cryptiq.release.xcconfig */,
+				68BEC48D7DD20CFFF226C939 /* Pods-Cryptiq-CryptiqUITests.debug.xcconfig */,
+				0B1017EA0123690FA4A7484F /* Pods-Cryptiq-CryptiqUITests.release.xcconfig */,
+				452BF0DEC842D7DA4C11C5C7 /* Pods-CryptiqTests.debug.xcconfig */,
+				A61605CED1DAD7E602AEAD6D /* Pods-CryptiqTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BBDA9CA82DCA8C30001685DA = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +110,8 @@
 				BBDA9CC12DCA8C32001685DA /* CryptiqTests */,
 				BBDA9CCB2DCA8C32001685DA /* CryptiqUITests */,
 				BBDA9CB22DCA8C30001685DA /* Products */,
+				69A95BE6A90AA968A5D07507 /* Pods */,
+				D5778D564F7ED6490043E58E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +125,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D5778D564F7ED6490043E58E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6426D298AD563A1C2B46EFF5 /* Pods_Cryptiq.framework */,
+				F4102313E720F9B86B2B15B1 /* Pods_Cryptiq_CryptiqUITests.framework */,
+				E1640D879F0E47266AD18435 /* Pods_CryptiqTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +142,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBDA9CD22DCA8C32001685DA /* Build configuration list for PBXNativeTarget "Cryptiq" */;
 			buildPhases = (
+				2A4716BB5151B6408C3DF66D /* [CP] Check Pods Manifest.lock */,
 				BBDA9CAD2DCA8C30001685DA /* Sources */,
 				BBDA9CAE2DCA8C30001685DA /* Frameworks */,
 				BBDA9CAF2DCA8C30001685DA /* Resources */,
@@ -111,8 +155,6 @@
 				BBDA9CB32DCA8C30001685DA /* Cryptiq */,
 			);
 			name = Cryptiq;
-			packageProductDependencies = (
-			);
 			productName = Cryptiq;
 			productReference = BBDA9CB12DCA8C30001685DA /* Cryptiq.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBDA9CD52DCA8C32001685DA /* Build configuration list for PBXNativeTarget "CryptiqTests" */;
 			buildPhases = (
+				A593394BD403EDBAC271FC30 /* [CP] Check Pods Manifest.lock */,
 				BBDA9CBA2DCA8C32001685DA /* Sources */,
 				BBDA9CBB2DCA8C32001685DA /* Frameworks */,
 				BBDA9CBC2DCA8C32001685DA /* Resources */,
@@ -134,8 +177,6 @@
 				BBDA9CC12DCA8C32001685DA /* CryptiqTests */,
 			);
 			name = CryptiqTests;
-			packageProductDependencies = (
-			);
 			productName = CryptiqTests;
 			productReference = BBDA9CBE2DCA8C32001685DA /* CryptiqTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBDA9CD82DCA8C32001685DA /* Build configuration list for PBXNativeTarget "CryptiqUITests" */;
 			buildPhases = (
+				6AAFE99D8B7C97AAD8D291ED /* [CP] Check Pods Manifest.lock */,
 				BBDA9CC42DCA8C32001685DA /* Sources */,
 				BBDA9CC52DCA8C32001685DA /* Frameworks */,
 				BBDA9CC62DCA8C32001685DA /* Resources */,
@@ -157,8 +199,6 @@
 				BBDA9CCB2DCA8C32001685DA /* CryptiqUITests */,
 			);
 			name = CryptiqUITests;
-			packageProductDependencies = (
-			);
 			productName = CryptiqUITests;
 			productReference = BBDA9CC82DCA8C32001685DA /* CryptiqUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +270,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A4716BB5151B6408C3DF66D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cryptiq-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AAFE99D8B7C97AAD8D291ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cryptiq-CryptiqUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A593394BD403EDBAC271FC30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptiqTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BBDA9CAD2DCA8C30001685DA /* Sources */ = {
@@ -390,6 +499,7 @@
 		};
 		BBDA9CD32DCA8C32001685DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E47D14C15CE0E3767C03E7DD /* Pods-Cryptiq.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -400,8 +510,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -417,6 +527,7 @@
 		};
 		BBDA9CD42DCA8C32001685DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AADFA8BB21EDEB96C450F3F1 /* Pods-Cryptiq.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -427,8 +538,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,6 +555,7 @@
 		};
 		BBDA9CD62DCA8C32001685DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 452BF0DEC842D7DA4C11C5C7 /* Pods-CryptiqTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +574,7 @@
 		};
 		BBDA9CD72DCA8C32001685DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A61605CED1DAD7E602AEAD6D /* Pods-CryptiqTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -480,6 +593,7 @@
 		};
 		BBDA9CD92DCA8C32001685DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68BEC48D7DD20CFFF226C939 /* Pods-Cryptiq-CryptiqUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -496,6 +610,7 @@
 		};
 		BBDA9CDA2DCA8C32001685DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B1017EA0123690FA4A7484F /* Pods-Cryptiq-CryptiqUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
