@@ -7,3 +7,11 @@
 */
 "ContentView.WelcomeMessage" = "Hello, World!"; 
 "ContentView.WelcomeMessage" = "Good morning, %@!";
+"Login.UsernameField.Title" = "Username";
+"Login.PasswordField.Title" = "Password";
+"Login.LoginButton.Title" = "Login";
+"error.invalid_url" = "Invalid URL.";
+"error.encoding_failed" = "Unable to encode request parameters.";
+"error.decoding_failed" = "Unable to decode response JSON.";
+"error.api_failed" = "API request failed.";
+"error.general" = "Error";
